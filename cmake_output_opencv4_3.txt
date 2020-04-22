@@ -1,0 +1,222 @@
+Selecting Windows SDK version 10.0.18362.0 to target Windows 10.0.18363.
+Detected processor: AMD64
+libjpeg-turbo: VERSION = 2.0.4, BUILD = opencv-4.3.0-libjpeg-turbo
+Could NOT find OpenJPEG (minimal suitable version: 2.0, recommended version >= 2.3.1)
+found Intel IPP (ICV version): 2020.0.0 [2020.0.0 Gold]
+at: C:/Users/HANINN/Documents/Git/opencv-4.3.0/build/3rdparty/ippicv/ippicv_win/icv
+found Intel IPP Integration Wrappers sources: 2020.0.0
+at: C:/Users/HANINN/Documents/Git/opencv-4.3.0/build/3rdparty/ippicv/ippicv_win/iw
+CUDA detected: 10.2
+CUDA NVCC target flags: -gencode;arch=compute_30,code=sm_30;-gencode;arch=compute_35,code=sm_35;-gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_52,code=sm_52;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_61,code=sm_61;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-D_FORCE_INLINES;-gencode;arch=compute_75,code=compute_75
+LAPACK(MKL): LAPACK_LIBRARIES: C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64/mkl_intel_lp64.lib;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64/mkl_sequential.lib;C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64/mkl_core.lib
+LAPACK(MKL): Support is enabled.
+Could NOT find JNI (missing: JAVA_AWT_LIBRARY JAVA_JVM_LIBRARY JAVA_INCLUDE_PATH JAVA_INCLUDE_PATH2 JAVA_AWT_INCLUDE_PATH) 
+VTK is not found. Please set -DVTK_DIR in CMake to VTK build directory, or to VTK install subdirectory with VTKConfig.cmake file
+Module opencv_alphamat disabled because the following dependencies are not found: Eigen
+Caffe:   NO
+Protobuf:   NO
+Glog:   NO
+freetype2:   NO
+harfbuzz:    NO
+Module opencv_ovis disabled because OGRE3D was not found
+No preference for use of exported gflags CMake configuration set, and no hints for include/library directories provided. Defaulting to preferring an installed/exported gflags CMake configuration if available.
+Failed to find installed gflags CMake configuration, searching for gflags build directories exported with CMake.
+Failed to find gflags - Failed to find an installed/exported CMake configuration for gflags, will perform search for installed gflags components.
+Failed to find gflags - Could not find gflags include directory, set GFLAGS_INCLUDE_DIR to directory containing gflags/gflags.h
+Failed to find glog - Could not find glog include directory, set GLOG_INCLUDE_DIR to directory containing glog/logging.h
+Module opencv_sfm disabled because the following dependencies are not found: Eigen Glog/Gflags
+Tesseract:   NO
+Processing WORLD modules...
+    module opencv_cudev...
+    module opencv_core...
+Allocator metrics storage type: 'long long'
+    module opencv_cudaarithm...
+    module opencv_flann...
+    module opencv_imgproc...
+    module opencv_intensity_transform...
+    module opencv_ml...
+    module opencv_phase_unwrapping...
+    module opencv_plot...
+    module opencv_quality...
+    module opencv_reg...
+    module opencv_surface_matching...
+    module opencv_cudafilters...
+    module opencv_cudaimgproc...
+    module opencv_cudawarping...
+    module opencv_dnn...
+Registering hook 'INIT_MODULE_SOURCES_opencv_dnn': C:/Users/HANINN/Documents/Git/opencv-4.3.0/opencv-4.3.0/modules/dnn/cmake/hooks/INIT_MODULE_SOURCES_opencv_dnn.cmake
+opencv_dnn: filter out cuda4dnn source code
+    module opencv_dnn_superres...
+    module opencv_features2d...
+    module opencv_fuzzy...
+    module opencv_gapi...
+    module opencv_hfs...
+    module opencv_imgcodecs...
+    module opencv_line_descriptor...
+    module opencv_photo...
+    module opencv_saliency...
+    module opencv_text...
+    module opencv_videoio...
+    module opencv_xphoto...
+    module opencv_calib3d...
+    module opencv_cudacodec...
+    module opencv_cudafeatures2d...
+    module opencv_cudastereo...
+    module opencv_datasets...
+    module opencv_highgui...
+    module opencv_objdetect...
+    module opencv_rapid...
+    module opencv_rgbd...
+    module opencv_shape...
+    module opencv_structured_light...
+    module opencv_video...
+    module opencv_xfeatures2d...
+    module opencv_ximgproc...
+    module opencv_xobjdetect...
+    module opencv_aruco...
+    module opencv_bgsegm...
+    module opencv_bioinspired...
+    module opencv_ccalib...
+    module opencv_cudabgsegm...
+    module opencv_cudalegacy...
+    module opencv_cudaobjdetect...
+    module opencv_dnn_objdetect...
+    module opencv_dpm...
+    module opencv_face...
+    module opencv_optflow...
+    module opencv_stitching...
+    module opencv_tracking...
+    module opencv_cudaoptflow...
+    module opencv_stereo...
+    module opencv_superres...
+    module opencv_videostab...
+Processing WORLD modules... DONE
+
+General configuration for OpenCV 4.3.0 =====================================
+  Version control:               unknown
+
+  Extra modules:
+    Location (extra):            C:/Users/HANINN/Documents/Git/opencv_contrib-4.3.0/opencv_contrib-4.3.0/modules
+    Version control (extra):     unknown
+
+  Platform:
+    Timestamp:                   2020-04-22T17:13:10Z
+    Host:                        Windows 10.0.18363 AMD64
+    CMake:                       3.17.0-rc3
+    CMake generator:             Visual Studio 16 2019
+    CMake build tool:            C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe
+    MSVC:                        1925
+
+  CPU/HW features:
+    Baseline:                    SSE SSE2 SSE3
+      requested:                 SSE3
+    Dispatched code generation:  SSE4_1 SSE4_2 FP16 AVX AVX2 AVX512_SKX
+      requested:                 SSE4_1 SSE4_2 AVX FP16 AVX2 AVX512_SKX
+      SSE4_1 (16 files):         + SSSE3 SSE4_1
+      SSE4_2 (2 files):          + SSSE3 SSE4_1 POPCNT SSE4_2
+      FP16 (1 files):            + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 AVX
+      AVX (5 files):             + SSSE3 SSE4_1 POPCNT SSE4_2 AVX
+      AVX2 (30 files):           + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2
+      AVX512_SKX (6 files):      + SSSE3 SSE4_1 POPCNT SSE4_2 FP16 FMA3 AVX AVX2 AVX_512F AVX512_COMMON AVX512_SKX
+
+  C/C++:
+    Built as dynamic libs?:      YES
+    C++ standard:                11
+    C++ Compiler:                C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx64/x64/cl.exe  (ver 19.25.28610.4)
+    C++ flags (Release):         /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /MP  /MD /O2 /Ob2 /DNDEBUG 
+    C++ flags (Debug):           /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /MP  /MDd /Zi /Ob0 /Od /RTC1 
+    C Compiler:                  C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx64/x64/cl.exe
+    C flags (Release):           /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /MP   /MD /O2 /Ob2 /DNDEBUG 
+    C flags (Debug):             /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /MP /MDd /Zi /Ob0 /Od /RTC1 
+    Linker flags (Release):      /machine:x64  /INCREMENTAL:NO 
+    Linker flags (Debug):        /machine:x64  /debug /INCREMENTAL 
+    ccache:                      NO
+    Precompiled headers:         NO
+    Extra dependencies:          opengl32 glu32 cudart_static.lib nppc.lib nppial.lib nppicc.lib nppicom.lib nppidei.lib nppif.lib nppig.lib nppim.lib nppist.lib nppisu.lib nppitc.lib npps.lib cublas.lib cudnn.lib cufft.lib -LIBPATH:C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.2/lib/x64
+    3rdparty dependencies:
+
+  OpenCV modules:
+    To be built:                 aruco bgsegm bioinspired calib3d ccalib core cudaarithm cudabgsegm cudacodec cudafeatures2d cudafilters cudaimgproc cudalegacy cudaobjdetect cudaoptflow cudastereo cudawarping cudev datasets dnn dnn_objdetect dnn_superres dpm face features2d flann fuzzy gapi hfs highgui img_hash imgcodecs imgproc intensity_transform line_descriptor ml objdetect optflow phase_unwrapping photo plot quality rapid reg rgbd saliency shape stereo stitching structured_light superres surface_matching text tracking ts video videoio videostab world xfeatures2d ximgproc xobjdetect xphoto
+    Disabled:                    -
+    Disabled by dependency:      -
+    Unavailable:                 alphamat cnn_3dobj cvv freetype hdf java js matlab ovis python2 python2 python3 sfm viz
+    Applications:                tests perf_tests examples apps
+    Documentation:               NO
+    Non-free algorithms:         NO
+
+  Windows RT support:            NO
+
+  GUI: 
+    Win32 UI:                    YES
+    OpenGL support:              YES (opengl32 glu32)
+    VTK support:                 NO
+
+  Media I/O: 
+    ZLib:                        build (ver 1.2.11)
+    JPEG:                        build-libjpeg-turbo (ver 2.0.4-62)
+    WEBP:                        build (ver encoder: 0x020f)
+    PNG:                         build (ver 1.6.37)
+    TIFF:                        build (ver 42 - 4.0.10)
+    JPEG 2000:                   build Jasper (ver 1.900.1)
+    OpenEXR:                     build (ver 2.3.0)
+    HDR:                         YES
+    SUNRASTER:                   YES
+    PXM:                         YES
+    PFM:                         YES
+
+  Video I/O:
+    DC1394:                      NO
+    FFMPEG:                      YES (prebuilt binaries)
+      avcodec:                   YES (58.54.100)
+      avformat:                  YES (58.29.100)
+      avutil:                    YES (56.31.100)
+      swscale:                   YES (5.5.100)
+      avresample:                YES (4.0.0)
+    GStreamer:                   NO
+    DirectShow:                  YES
+    Media Foundation:            YES
+      DXVA:                      YES
+    Intel Media SDK:             YES (C:/Program Files (x86)/IntelSWTools/Intel(R) Media SDK 2019 R1/Software Development Kit/lib/x64/libmfx_vs2015.lib)
+
+  Parallel framework:            Concurrency
+
+  Trace:                         YES (with Intel ITT)
+
+  Other third-party libraries:
+    Intel IPP:                   2020.0.0 Gold [2020.0.0]
+           at:                   C:/Users/HANINN/Documents/Git/opencv-4.3.0/build/3rdparty/ippicv/ippicv_win/icv
+    Intel IPP IW:                sources (2020.0.0)
+              at:                C:/Users/HANINN/Documents/Git/opencv-4.3.0/build/3rdparty/ippicv/ippicv_win/iw
+    Lapack:                      YES (C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64/mkl_intel_lp64.lib C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64/mkl_sequential.lib C:/Program Files (x86)/IntelSWTools/compilers_and_libraries/windows/mkl/lib/intel64/mkl_core.lib)
+    Eigen:                       NO
+    Custom HAL:                  NO
+    Protobuf:                    build (3.5.1)
+
+  NVIDIA CUDA:                   YES (ver 10.2, CUFFT CUBLAS NVCUVID FAST_MATH)
+    NVIDIA GPU arch:             30 35 37 50 52 60 61 70 75
+    NVIDIA PTX archs:            75
+
+  cuDNN:                         YES (ver 7.6.5)
+
+  OpenCL:                        YES (NVD3D11)
+    Include path:                C:/Users/HANINN/Documents/Git/opencv-4.3.0/opencv-4.3.0/3rdparty/include/opencl/1.2
+    Link libraries:              Dynamic load
+
+  Python 3:
+    Interpreter:                 C:/Users/HANINN/AppData/Local/Programs/Python/Python37/python.exe (ver 3.7.7)
+    Libraries:                   NO
+    numpy:                       C:/Users/HANINN/AppData/Local/Programs/Python/Python37/lib/site-packages/numpy/core/include (ver 1.18.3)
+    install path:                -
+
+  Python (for build):            C:/Users/HANINN/AppData/Local/Programs/Python/Python37/python.exe
+
+  Java:                          
+    ant:                         NO
+    JNI:                         NO
+    Java wrappers:               NO
+    Java tests:                  NO
+
+  Install to:                    C:/Users/HANINN/Documents/Git/opencv-4.3.0/build/install
+-----------------------------------------------------------------
+
+Configuring done
